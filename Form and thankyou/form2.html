@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pizza Syahid</title>
+</head>
+<body style="max-width: 600px; border: 2px solid black; margin-right: auto;">
+    <header>
+        <div style="margin-top: 20px; margin-left: 20px; font-size: 20px; font-style: italic;">
+            <h2><b><u>Black Goose Bistro | Pizza-on-Demand</u></b></h2>
+        </div>
+    </header>
+    <main style="margin-left: 30px; margin-bottom: 30px; font-size: 18px; font-style: italic;">
+        <a>Our 12'' wood fired pizzas are available for delivery. build your</a> 
+        <br>
+        <a>custom pizza and we'll deliver it within an hour.</a>
+        <h3 style="font-size: 20px;">Your Information :</h3>
+        <form action="http://blackgoosebistro.com/pizza.php" method="post">
+            <table style="border: 1px solid black;">
+                <tr>
+                    <td>Name</td>
+                    <td>:</td>
+                    <td><input type="text" name="name"> <br></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>:</td>
+                    <td><input type="text" name="address"></td>
+                </tr>
+                <tr>
+                    <td>Telp</td>
+                    <td>:</td>
+                    <td><input type="number" name="username"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input type="text" name="username"></td>
+                </tr>
+                <tr>
+                    <td>Delivery Instructions</td>
+                    <td>:</td>
+                </tr>
+            </table>
+            <textarea style="border: 1px solid black;" name="instruksi" id="instruk" cols="60" rows="5" placeholder="No more than 400 characters long"></textarea>
+
+        </form>
+        <br>
+        <b>Design Your Dream Pizza</b> <br>
+        <a>Pizza specs</a> <br>
+        <br>
+        <a>Crust (Choose One):</a> 
+        <ul style="list-style-type: none;">
+            <li style="margin-left: -5%;"><input type="radio" name="Crust" value="Classic white">Classic White</li>
+            <li style="margin-left: -5%;"><input type="radio" name="Crust" value="Classic white">Multigrain</li>
+            <li style="margin-left: -5%;"><input type="radio" name="Crust" value="Classic white">Cheese-stuffed crust</li>
+            <li style="margin-left: -5%;"><input type="radio" name="Crust" value="Classic white">Gluten free</li>
+        </ul>
+        <a>Toppings (Choose as many as you want)</a>
+        <form action="#"><br>
+            <input style="margin-left: 3%;" type="checkbox" id="redsauce" name="redsauce" value="red">
+            <label for="redsauce">Red Sauce</label> <br>
+            <input style="margin-left: 3%;" type="checkbox" id="whitesauce" name="whitesauce" value="white">
+            <label for="whitesauce">White Sauce</label> <br>
+            <input style="margin-left: 3%;" type="checkbox" id="mozarellacheese" name="mozarellacheese" value="mozarella">
+            <label for="mozarellacheese">Mozarella Cheese</label> <br>
+            <input style="margin-left: 3%;" type="checkbox" id="pepperoni" name="pepperoni" value="pep">
+            <label for="pepperoni">Pepperoni</label> <br>
+            <input style="margin-left: 3%;" type="checkbox" id="mushrooms" name="mushrooms" value="mush">
+            <label for="mushrooms">Mushrooms</label> <br>
+            <input style="margin-left: 3%;" type="checkbox" id="peppers" name="peppers" value="peppers">
+            <label for="peppers">Peppers</label> <br>
+            <input style="margin-left: 3%;" type="checkbox" id="anchovies" name="anchovies" value="anch">
+            <label for="anchovies">Anchovies</label> <br>
+        </form>
+        <br>
+        <a>Number :</a> <br>
+        <a><b>How many pizzas :</b></a><input style="width: 5%;" type="text" list="manypizza" name="manypizza">
+        <datalist id="manypizza"> >
+            <option value="1">
+            <option value="2">
+            <option value="3">
+            <option value="4">
+        </datalist>
+        <br>
+        <br>
+
+        <p><input type="submit" value="Delivery">
+        <a href="form2.html"></a><button>Reset</button></p>
+
+    </main>
+</body>
+</html>
